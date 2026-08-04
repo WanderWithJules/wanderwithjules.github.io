@@ -199,18 +199,4 @@ And that’s kind of the whole point.
 
 As I drove back to Dubai that afternoon, the city skyline slowly replaced the rocky hills in my rear-view mirror.
 
-The traffic returned.
-
-My phone started buzzing again.
-
-Reality switched back on.
-
-But for a couple of hours, during a busy Eid weekend, I’d escaped it all without travelling very far.
-
-Sometimes that’s all you really need.
-
-Not a plane ticket.
-
-Not a five-star resort.
-
 Just a tank of fuel, an open road, and somewhere that reminds you the world has been here long before us... and will be here long after we’re gone.
