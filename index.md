@@ -1,50 +1,565 @@
 ---
-layout: default
+layout: null
 title: Wander With Jules
 ---
 
-<div style="background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; height: 500px; display: flex; align-items: center; justify-content: center; color: white; text-align: center; margin-bottom: 50px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
-  <div>
-    <h1 style="font-size: 58px; margin-bottom: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">
-      Wander With Jules
-    </h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <p style="font-size: 22px; text-shadow: 2px 2px 6px rgba(0,0,0,0.8);">
-      Honest reviews, spontaneous adventures and places worth experiencing.
-    </p>
-  </div>
+  <meta name="description"
+        content="Honest reviews, memorable adventures and places worth discovering.">
 
-</div>
+  <title>Wander With Jules</title>
 
-<div style="max-width: 850px; margin: 0 auto; padding: 20px; text-align: center;">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-  <h2>Every Place Has a Story</h2>
+    html {
+      scroll-behavior: smooth;
+    }
 
-  <p>
-  For me, it’s never just about the destination. It’s about the experience.
-  </p>
+    body {
+      margin: 0;
+      background: #fbfaf8;
+      color: #252525;
+      font-family: Arial, Helvetica, sans-serif;
+    }
 
-  <p>
-  From museums, attractions and scenic drives to restaurants, hidden gems and spontaneous day trips, I’ll share honest reviews, practical tips and the moments that made each visit memorable.
-  </p>
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-  <p>
-  Consider this your invitation to explore, discover and occasionally decide on a Friday night to go somewhere completely unexpected.
-  </p>
+    img {
+      display: block;
+      width: 100%;
+    }
 
-</div>
+    /* Navigation */
 
-<hr style="margin: 60px 0;">
+    .site-header {
+      position: relative;
+      z-index: 20;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.97);
+      border-bottom: 1px solid #ece8e2;
+    }
 
-<h2>Latest Stories</h2>
+    .nav-container {
+      width: 100%;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 18px 35px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
 
-{% for post in site.posts %}
-### [{{ post.title }}]({{ post.url | relative_url }})
+    .logo {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
 
-{{ post.excerpt }}
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
 
-[Read more]({{ post.url | relative_url }})
+    .nav-links a {
+      padding: 7px 0;
+      border-bottom: 1px solid transparent;
+    }
 
----
-{% endfor %}
+    .nav-links a:hover {
+      border-bottom-color: #d29a6a;
+    }
+
+    /* Hero */
+
+    .hero {
+      min-height: 620px;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      background-image:
+        linear-gradient(
+          90deg,
+          rgba(10, 15, 18, 0.63) 0%,
+          rgba(10, 15, 18, 0.28) 48%,
+          rgba(10, 15, 18, 0.10) 100%
+        ),
+        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=90");
+
+      background-position: center;
+      background-size: cover;
+    }
+
+    .hero-inner {
+      width: 100%;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 70px 70px;
+    }
+
+    .hero-content {
+      max-width: 650px;
+      color: white;
+    }
+
+    .hero h1 {
+      margin: 0;
+      max-width: 620px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(58px, 7vw, 104px);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 0.98;
+      letter-spacing: -3px;
+      text-shadow: 0 4px 18px rgba(0, 0, 0, 0.42);
+    }
+
+    .hero-tagline {
+      margin: 30px 0 0;
+      font-size: 16px;
+      line-height: 1.6;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-line {
+      width: 55px;
+      height: 3px;
+      margin-top: 28px;
+      background: #e6a36c;
+    }
+
+    /* Introduction */
+
+    .intro {
+      padding: 65px 25px;
+      text-align: center;
+      background: #ffffff;
+    }
+
+    .intro-inner {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      margin: 0 0 25px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 36px;
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .title-line {
+      width: 48px;
+      height: 2px;
+      margin: -12px auto 24px;
+      background: #e6a36c;
+    }
+
+    .intro p {
+      margin: 10px auto;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    /* Latest stories */
+
+    .latest {
+      padding: 65px 30px 85px;
+      border-top: 1px solid #eee9e2;
+    }
+
+    .latest-inner {
+      max-width: 1250px;
+      margin: 0 auto;
+    }
+
+    .latest-heading {
+      margin: 0 0 30px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      font-weight: 400;
+    }
+
+    .stories-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .story-card {
+      overflow: hidden;
+      background: white;
+      border: 1px solid #e8e3dc;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .story-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.09);
+    }
+
+    .story-image {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .story-content {
+      padding: 22px;
+    }
+
+    .story-category {
+      margin-bottom: 10px;
+      color: #8a8177;
+      font-size: 11px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .story-title {
+      margin: 0 0 13px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+
+    .story-excerpt {
+      margin: 0;
+      color: #5f5a54;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 17px;
+      padding-bottom: 4px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #d29a6a;
+    }
+
+    .empty-posts {
+      padding: 40px;
+      background: white;
+      border: 1px solid #e8e3dc;
+      text-align: center;
+    }
+
+    /* About */
+
+    .about {
+      padding: 70px 25px;
+      background: #f2eee8;
+      text-align: center;
+    }
+
+    .about-inner {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .about p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    /* Footer */
+
+    .custom-footer {
+      padding: 30px 25px;
+      background: #202020;
+      color: #f5f5f5;
+      text-align: center;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    /* Mobile menu */
+
+    .menu-toggle {
+      display: none;
+      border: 0;
+      background: transparent;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 900px) {
+      .nav-container {
+        padding: 17px 22px;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 67px;
+        left: 0;
+        width: 100%;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        background: white;
+        border-top: 1px solid #ece8e2;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .hero {
+        min-height: 540px;
+        background-position: 63% center;
+      }
+
+      .hero-inner {
+        padding: 60px 28px;
+      }
+
+      .hero h1 {
+        max-width: 480px;
+        font-size: clamp(54px, 14vw, 82px);
+      }
+
+      .hero-tagline {
+        max-width: 470px;
+        font-size: 13px;
+      }
+
+      .stories-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .logo {
+        font-size: 16px;
+      }
+
+      .hero {
+        min-height: 520px;
+      }
+
+      .hero h1 {
+        letter-spacing: -2px;
+      }
+
+      .stories-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .story-image {
+        height: 240px;
+      }
+
+      .intro,
+      .latest,
+      .about {
+        padding-top: 52px;
+        padding-bottom: 58px;
+      }
+
+      .section-title {
+        font-size: 31px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Main navigation">
+
+      <a class="logo" href="/">
+        Wander With Jules
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open menu"
+        onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        ☰
+      </button>
+
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="#latest">Latest Stories</a>
+        <a href="#museums">Museums</a>
+        <a href="#road-trips">Road Trips</a>
+        <a href="#food">Food</a>
+        <a href="#about">About</a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+
+          <h1>Wander<br>With Jules</h1>
+
+          <p class="hero-tagline">
+            Reviews. Adventures. Places worth discovering.
+          </p>
+
+          <div class="hero-line"></div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="intro-inner">
+
+        <h2 class="section-title">Every Place Has a Story</h2>
+
+        <div class="title-line"></div>
+
+        <p>
+          For me, it’s never just about the destination. It’s about the experience.
+        </p>
+
+        <p>
+          From museums, attractions and scenic drives to restaurants and hidden
+          gems, I share honest reviews, practical tips and the moments that made
+          each visit memorable.
+        </p>
+
+        <p>
+          Whether you’re planning your next outing or simply looking for somewhere
+          new to explore, I hope you find a little inspiration here.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="latest" id="latest">
+      <div class="latest-inner">
+
+        <h2 class="latest-heading">Latest Stories</h2>
+
+        {% if site.posts.size > 0 %}
+
+          <div class="stories-grid">
+
+            {% for post in site.posts limit:6 %}
+
+              <article class="story-card">
+
+                <a href="{{ post.url | relative_url }}">
+
+                  {% if post.image %}
+                    <img
+                      class="story-image"
+                      src="{{ post.image }}"
+                      alt="{{ post.title | escape }}">
+                  {% else %}
+                    <img
+                      class="story-image"
+                      src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1000&q=80"
+                      alt="">
+                  {% endif %}
+
+                </a>
+
+                <div class="story-content">
+
+                  <div class="story-category">
+                    {% if post.category %}
+                      {{ post.category }}
+                    {% elsif post.categories %}
+                      {{ post.categories | first }}
+                    {% else %}
+                      Travel
+                    {% endif %}
+                  </div>
+
+                  <h3 class="story-title">
+                    <a href="{{ post.url | relative_url }}">
+                      {{ post.title }}
+                    </a>
+                  </h3>
+
+                  <p class="story-excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 24 }}
+                  </p>
+
+                  <a class="read-more" href="{{ post.url | relative_url }}">
+                    Read the story
+                  </a>
+
+                </div>
+              </article>
+
+            {% endfor %}
+
+          </div>
+
+        {% else %}
+
+          <div class="empty-posts">
+            Your first story is coming soon.
+          </div>
+
+        {% endif %}
+
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner">
+
+        <h2 class="section-title">About Wander With Jules</h2>
+
+        <div class="title-line"></div>
+
+        <p>
+          A personal collection of places visited, experiences enjoyed and honest
+          opinions gathered along the way. No glossy sales pitch, just what stood
+          out, what was worth the time and what you may want to know before going.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="custom-footer">
+    © 2026 Wander With Jules
+  </footer>
+
+</body>
+</html>
