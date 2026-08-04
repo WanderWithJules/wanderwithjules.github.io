@@ -15,3 +15,6 @@ header_pages:
 markdown: kramdown
 
 permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-sitemap
