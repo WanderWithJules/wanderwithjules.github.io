@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "When a Random Friday Turned Into a Journey Through 13.8 Billion Years"
-date: 2026-08-04
+date: 2026-08-01
 category: Museums
 categories:
   - Museums
   - Abu Dhabi
   - UAE
-image: "https://images.unsplash.com/photo-1524781289445-ddf8f5695861?auto=format&fit=crop&w=1400&q=85"
+image: /assets/images/natural-history-museum/cover.jpg
 excerpt: "A spontaneous trip to the Natural History Museum Abu Dhabi turned into an unforgettable journey through dinosaurs, ancient oceans, meteorites and 13.8 billion years of history."
 ---
 
@@ -50,9 +50,13 @@ The real surprise was still waiting inside.
 
 ## Walking into the lobby... and stopping in my tracks
 
+![The enormous dinosaur skeletons dominating the museum's entrance hall.](/assets/images/natural-history-museum/lobby.jpg)
+
+*The first thing that stopped me in my tracks. These incredible dinosaurs dominate the museum's entrance hall.*
+
 The second security let me pass, I froze.
 
-In the centre of the lobby stood gigantic dinosaur skeletons that immediately transported me back in time.
+In the center of the lobby stood gigantic dinosaur skeletons that immediately transported me back in time.
 
 Not one.
 
@@ -67,6 +71,10 @@ I spent a good ten minutes wandering around them, taking them in from every poss
 Those claws, though!
 
 They instantly took me back to watching the *Jurassic Park* films growing up, and I genuinely had chills running down my spine.
+
+![Standing beneath one of the museum's giant dinosaur skeletons.](/assets/images/natural-history-museum/bear.jpg)
+
+*Standing beneath these giants made me realize just how enormous they really were.*
 
 One fact that completely blew my mind was learning from the guide that what I was looking at was around 80% original fossil, with only about 20% carefully reconstructed to replace missing bones.
 
@@ -98,7 +106,12 @@ The museum takes you on a journey from the birth of the universe all the way to 
 
 Some of my favourite moments included:
 
-- Standing inches away from the enormous sabre-toothed cat skeleton.
+Standing inches away from the enormous sabre-toothed cat skeleton was one of my favourite moments.
+
+![Sabre-toothed cat skeleton.](/assets/images/natural-history-museum/sabre-tooth.jpg)
+
+*One of the museum's most impressive prehistoric predators.*
+
 - Gazing up at a massive pair of jaws that completely dwarfed my head.
 - Touching the bony frill of a Triceratops. As someone who grew up fascinated by dinosaurs and slightly obsessed with *Jurassic Park*, that was a proper goosebumps moment.
 - Walking among fossil displays that are hundreds of millions of years old.
