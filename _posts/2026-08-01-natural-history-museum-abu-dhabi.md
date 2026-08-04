@@ -7,7 +7,7 @@ categories:
   - Museums
   - Abu Dhabi
   - UAE
-image: /assets/images/natural-history-museum/cover.jpg
+image: /assets/images/natural-history-museum/cover.jpg.jpeg
 excerpt: "A spontaneous trip to the Natural History Museum Abu Dhabi turned into an unforgettable journey through dinosaurs, ancient oceans, meteorites and 13.8 billion years of history."
 ---
 
@@ -50,7 +50,7 @@ The real surprise was still waiting inside.
 
 ## Walking into the lobby... and stopping in my tracks
 
-![The enormous dinosaur skeletons dominating the museum's entrance hall.](/assets/images/natural-history-museum/lobby.jpg)
+![The enormous dinosaur skeletons dominating the museum's entrance hall.](/assets/images/natural-history-museum/lobby.jpg.jpeg)
 
 *The first thing that stopped me in my tracks. These incredible dinosaurs dominate the museum's entrance hall.*
 
@@ -72,7 +72,7 @@ Those claws, though!
 
 They instantly took me back to watching the *Jurassic Park* films growing up, and I genuinely had chills running down my spine.
 
-![Standing beneath one of the museum's giant dinosaur skeletons.](/assets/images/natural-history-museum/bear.jpg)
+![Standing beneath one of the museum's giant dinosaur skeletons.](/assets/images/natural-history-museum/bear.jpg.jpeg)
 
 *Standing beneath these giants made me realize just how enormous they really were.*
 
@@ -108,7 +108,7 @@ Some of my favourite moments included:
 
 Standing inches away from the enormous sabre-toothed cat skeleton was one of my favourite moments.
 
-![Sabre-toothed cat skeleton.](/assets/images/natural-history-museum/sabre-tooth.jpg)
+![Sabre-toothed cat skeleton.](/assets/images/natural-history-museum/sabre-tooth.jpg.jpeg)
 
 *One of the museum's most impressive prehistoric predators.*
 
