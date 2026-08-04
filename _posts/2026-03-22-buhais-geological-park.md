@@ -7,7 +7,7 @@ categories:
   - Museums
   - Sharjah
   - UAE
-image: "/assets/images/buhais-geological-park/cover.jpeg"
+image: "/assets/images/buhais-geological-park/Cover.jpeg"
 excerpt: "Looking for a peaceful Eid escape led me to Buhais Geological Park in Sharjah, where ancient fossils, prehistoric seas and millions of years of history completely changed the way I looked at the desert."
 ---
 
