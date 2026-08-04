@@ -1,0 +1,17 @@
+title: Wander With Jules
+description: Honest reviews, spontaneous adventures and places worth experiencing.
+author: Jules
+
+theme: minima
+
+url: "https://wanderwithjules.github.io"
+baseurl: ""
+
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+markdown: kramdown
+
+permalink: /:year/:month/:day/:title/
