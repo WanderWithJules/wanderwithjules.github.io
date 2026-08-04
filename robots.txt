@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wanderwithjules.github.io/sitemap.xml
