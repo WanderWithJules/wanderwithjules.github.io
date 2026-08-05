@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Barcelona on Foot: Souvenirs, Shopping and a Lesson About Pickpockets"
+title: "2 of 2: Barcelona on Foot: Souvenirs, Shopping and a Lesson About Pickpockets"
 date: 2021-09-14
 category: Road Trips
 categories:
   - Road Trips
   - Spain
   - Barcelona
-image: "/assets/images/Barcelona-Spain/castell d'emporda cover.jpeg"
+image: "/assets/images/Barcelona-Spain/Barcelona cover.jpeg"
 excerpt: "After peaceful days in Girona, Barcelona offered lively streets, shopping, unforgettable walks and an important reminder to stay alert."
 ---
 
