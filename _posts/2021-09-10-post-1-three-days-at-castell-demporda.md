@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Three Days at Castell d'Empordà: A Family Wedding in Catalonia"
+title: "1 of 2: Three Days at Castell d'Empordà: A Family Wedding in Catalonia"
 date: 2021-09-10
 category: Road Trips
 categories:
