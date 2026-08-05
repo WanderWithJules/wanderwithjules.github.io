@@ -11,7 +11,7 @@ image: "/assets/images/Barcelona-Spain/Barcelona cover1.jpg"
 excerpt: "After peaceful days in Girona, Barcelona offered lively streets, shopping, unforgettable walks and an important reminder to stay alert."
 ---
 
-September 2021 | Barcelona, Spain
+*September 2021 • Barcelona, Spain*
 
 After three peaceful days surrounded by the countryside of Girona, arriving in Barcelona felt like stepping into a completely different world.
 
