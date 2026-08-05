@@ -12,7 +12,7 @@ image: "/assets/images/Girona-Spain/castell d'emporda.jpeg"
 excerpt: "A three-day family wedding at Castell d'Empordà became an unforgettable escape filled with peaceful mornings, Catalan countryside and unplanned walks through Girona."
 ---
 
-*September 2021 | Girona, Spain*
+*September 2021 • Girona, Spain*
 
 Some trips are planned around famous landmarks.
 
