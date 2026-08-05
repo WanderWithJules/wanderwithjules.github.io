@@ -7,7 +7,7 @@ categories:
   - Road Trips
   - Spain
   - Barcelona
-image: "/assets/images/Barcelona-Spain/Barcelona cover.jpg"
+image: "/assets/images/Barcelona-Spain/Barcelona cover1.jpg"
 excerpt: "After peaceful days in Girona, Barcelona offered lively streets, shopping, unforgettable walks and an important reminder to stay alert."
 ---
 
