@@ -8,7 +8,7 @@ categories:
   - Hatta
   - Dubai
   - UAE
-image: "/assets/images/hatta-honey-bee-garden/Hatta-Honey-Bee-Garden%20Cover.jpeg"
+image: "/assets/images/hatta-honey-bee-garden/Hatta-Honey-Bee-Garden Cover.jpeg"
 excerpt: "A spontaneous Eid road trip to Hatta turned into one of my most unexpected UAE experiences: dressing as a beekeeper, finding the queen and holding a frame covered with thousands of live bees."
 ---
 
@@ -82,7 +82,7 @@ One minute, I was happily watching from a safe distance.
 
 The next, I had a frame containing thousands of live bees in my hands.
 
-![Holding a frame covered with live bees at Hatta Honey Bee Garden](/assets/images/hatta-honey-bee-garden/Hatta-Honey-Bee-Garden%20holding%20frame.jpeg)
+![Holding a frame covered with live bees at Hatta Honey Bee Garden](/assets/images/hatta-honey-bee-garden/Hatta-Honey-Bee-Garden holding frame.jpeg)
 
 It was much heavier than I expected.
 
@@ -106,7 +106,7 @@ She was larger than the worker bees, with a noticeably longer body, quietly movi
 
 If nobody had shown me where to look, I would have missed her completely.
 
-![The queen bee surrounded by worker bees at Hatta Honey Bee Garden](/assets/images/hatta-honey-bee-garden/Hatta-Honey-Bee-Garden%20Queen%20Bee.jpeg)
+![The queen bee surrounded by worker bees at Hatta Honey Bee Garden](/assets/images/hatta-honey-bee-garden/Hatta-Honey-Bee-Garden Queen Bee.jpeg)
 
 ## A Tiny City That Never Sleeps
 
@@ -131,8 +131,6 @@ Inside the visitor centre are colourful displays explaining the different types 
 It isn’t overly scientific or difficult to understand.
 
 Whether you’re visiting with children or you’re simply curious like I was, it’s genuinely interesting.
-
-![Educational display inside Hatta Honey Bee Garden](/assets/images/hatta-honey-bee-garden/Hatta-Honey-Bee-Garden-slate.jpeg)
 
 ## Honey Tasting
 
