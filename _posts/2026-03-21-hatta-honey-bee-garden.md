@@ -2,9 +2,9 @@
 layout: post
 title: "Hatta Honey Bee Garden: Holding Thousands of Bees Wasn't How I Planned to Spend Eid... But I'm Glad I Did"
 date: 2026-03-21
-category: Experiences
+category: Road Trips
 categories:
-  - Experiences
+  - Road Trips
   - Hatta
   - Dubai
   - UAE
