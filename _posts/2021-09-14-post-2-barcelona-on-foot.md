@@ -57,7 +57,7 @@ Famous last words.
 
 Barcelona turned out to be just as good for shopping as it was for sightseeing.
 
-There were plenty of visits to Zara, lots of browsing through souvenir shops and, somehow, more shopping bags appeared every single day.
+There were visits to Zara and other shops, lots of browsing through souvenir shops and, somehow, more shopping bags appeared every single day.
 
 By the end of the trip, we'd collected gifts for family and friends back home, along with a few things that somehow found their way into our own suitcases too.
 
