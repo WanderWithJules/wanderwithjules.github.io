@@ -38,19 +38,19 @@ The scenery was breathtaking.
 
 Every direction offered another postcard-worthy view of green hills, forests and farmland stretching into the distance.
 
-Every morning, I'd open the curtains before anyone else was awake just to admire the landscape.
+Every morning, I'd be up before anyone else was awake just to admire the landscape.
 
 No matter how many times I looked, it never became ordinary.
 
-![View from Castell d'Empordà](/assets/images/Girona-Spain/castell d'emporda view2.jpeg)
+![Girona, Spain](/assets/images/Girona-Spain/Girona cover.jpeg)
 
 ## Peaceful Mornings in the Catalan Countryside
 
-The wedding celebrations usually didn't begin until later in the day, which gave me the perfect excuse to explore the countryside each morning.
+The wedding celebrations usually didn't begin until later in the day, which gave us the perfect excuse to explore the countryside each morning.
 
 While everyone else was still asleep, I'd lace up my running shoes and head out from Castell d'Empordà, following the quiet country roads that wound through the surrounding landscape.
 
-The scenery was unlike anything I was used to back home.
+The scenery was unlike anything I was used to back in Dubai.
 
 Rolling fields, vineyards, ancient stone walls and open countryside stretched in every direction, with nothing but birdsong breaking the silence.
 
@@ -72,6 +72,8 @@ Not every memorable travel experience ends up in your camera roll.
 
 Some are simply moments you're fortunate enough to live.
 
+![View from Castell d'Empordà](/assets/images/Girona-Spain/castell d'emporda view2.jpeg)
+
 ## Three Days of Celebration
 
 The wedding itself was held at Castell d'Empordà, which meant there was no rushing between venues or spending hours in traffic.
@@ -80,7 +82,7 @@ Everything happened in one beautiful location.
 
 ![Family wedding at Castell d'Empordà](/assets/images/Girona-Spain/Wedding.jpeg)
 
-Family gathered from different countries, conversations carried on late into the evening, and every day brought another celebration.
+Family and friends had gathered from different countries, conversations carried on late into the evening, and every day brought another celebration.
 
 Being able to stay at the venue made the experience feel relaxed rather than rushed.
 
@@ -94,8 +96,6 @@ Whenever there was a break between the wedding celebrations, we drove into nearb
 
 If you've never visited, imagine narrow cobbled streets, medieval stone buildings, colourful shutters and little cafés hidden around almost every corner.
 
-![Girona, Spain](/assets/images/Girona-Spain/Girona cover.jpeg)
-
 Girona isn't a city that needs an itinerary.
 
 The best thing we did was simply wander.
@@ -103,7 +103,6 @@ The best thing we did was simply wander.
 We'd turn down random alleyways, stop whenever something caught our eye and enjoy discovering the city one street at a time.
 
 ![A street in Girona](/assets/images/Girona-Spain/Girona street.jpeg)
-
 
 Eventually, after plenty of walking, we spotted a gelato shop.
 
